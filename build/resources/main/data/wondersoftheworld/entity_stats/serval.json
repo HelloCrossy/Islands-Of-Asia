@@ -1,0 +1,27 @@
+{
+  "temperament": "aggressive",
+  "kibble": "zawa:carnivore_kibble",
+  "size": "medium",
+  "fertility": "medium",
+  "breeding_item": "minecraft:porkchop",
+  "litter_size": {
+    "min": 2,
+    "max": 3
+  },
+  "diet": "zawa:large_carnivore",
+  "speed": "medium",
+  "enrichment": {
+    "zawa:blocks": [
+      "zawa:puzzle_feeder",
+      "zawa:hay_browse",
+      "zawa:sprinkler",
+      "zawa:rope",
+      "zawa:beef_ice_treat"
+    ],
+    "zawa:entities": [
+      "zawa:scented_ball"
+    ]
+  },
+  "variant_count": 4,
+  "captive_variants": 2
+}

@@ -1,0 +1,20 @@
+{
+  "temperament": "territorial",
+  "kibble": "zawa:omnivore_kibble",
+  "size": "large",
+  "fertility": "high",
+  "breeding_item": "zawa:brown_rat",
+  "litter_size": {
+    "min": 1,
+    "max": 6
+  },
+  "diet": "zawa:omnivore",
+  "speed": "medium",
+  "enrichment": {
+    "zawa:blocks": [
+      "zawa:sprinkler",
+      "zawa:apple_ice_treat"
+    ]
+  },
+  "variant_count": 5
+}

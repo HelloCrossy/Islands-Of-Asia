@@ -1,0 +1,24 @@
+{
+  "temperament": "aggressive",
+  "kibble": "zawa:carnivore_kibble",
+  "size": "small",
+  "fertility": "high",
+  "breeding_item": "zawa:large_meat",
+  "litter_size": {
+    "min": 1,
+    "max": 2
+  },
+  "diet": "zawa:scavenger",
+  "speed": "medium",
+  "enrichment": {
+    "zawa:blocks": [
+      "zawa:perching_stand",
+      "zawa:hay_browse",
+      "zawa:sprinkler"
+    ],
+    "zawa:entities": [
+      "zawa:scented_ball"
+    ]
+  },
+  "variant_count": 8
+}

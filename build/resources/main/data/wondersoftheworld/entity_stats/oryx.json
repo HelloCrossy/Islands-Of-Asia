@@ -1,0 +1,20 @@
+{
+  "temperament": "defensive",
+  "kibble": "zawa:herbivore_kibble",
+  "size": "large",
+  "fertility": "low",
+  "breeding_item": "minecraft:hay_block",
+  "litter_size": {
+    "min": 1,
+    "max": 1
+  },
+  "diet": "zawa:ruminant",
+  "speed": "medium",
+  "enrichment": {
+    "zawa:blocks": [
+      "zawa:scratching_post",
+      "zawa:sprinkler"
+    ]
+  },
+  "variant_count": 5
+}

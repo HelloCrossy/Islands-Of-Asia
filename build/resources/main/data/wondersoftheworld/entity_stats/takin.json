@@ -1,0 +1,24 @@
+{
+  "temperament": "territorial",
+  "kibble": "zawa:herbivore_kibble",
+  "size": "large",
+  "fertility": "medium",
+  "breeding_item": "zawa:arctic_moss",
+  "litter_size": {
+    "min": 1,
+    "max": 1
+  },
+  "diet": "zawa:ruminant",
+  "speed": "slow",
+  "enrichment": {
+    "zawa:blocks": [
+      "zawa:scratching_post",
+      "zawa:sprinkler",
+      "zawa:salt_lick"
+    ],
+    "zawa:entities": [
+      "zawa:boomer_ball"
+    ]
+  },
+  "variant_count": 4
+}

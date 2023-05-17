@@ -1,0 +1,26 @@
+{
+  "temperament": "neutral",
+  "kibble": "zawa:herbivore_kibble",
+  "size": "medium",
+  "fertility": "low",
+  "breeding_item": "minecraft:fern",
+  "litter_size": {
+    "min": 1,
+    "max": 2
+  },
+  "diet": "zawa:herbivore",
+  "speed": "slow",
+  "enrichment": {
+    "zawa:blocks": [
+      "zawa:scratching_post",
+      "zawa:sprinkler",
+      "zawa:puzzle_feeder",
+      "zawa:hay_browse",
+      "zawa:apple_ice_treat"
+    ],
+    "zawa:entities": [
+      "zawa:scented_ball"
+    ]
+  },
+  "variant_count": 2
+}

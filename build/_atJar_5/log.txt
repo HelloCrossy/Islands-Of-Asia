@@ -1,0 +1,7 @@
+Java Launcher: /Library/Java/JavaVirtualMachines/jdk1.8.0_361.jdk/Contents/Home/bin/java
+Arguments: '--inJar, /Users/callumross/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.2.26/forge-1.16.5-36.2.26-injected.jar, --outJar, /Users/callumross/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.2.26_mapped_official_1.16.5/forge-1.16.5-36.2.26_mapped_official_1.16.5.jar, --logFile, accesstransform.log, --atFile, /Users/callumross/Documents/GitHub/WondersOfTheWorld/Wonders-Of-The-World-A-ZAWA-Evolved-Addon/build/_atJar_5/parent_at.cfg'
+Classpath:
+ - /Users/callumross/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/8.0.7/accesstransformers-8.0.7-fatjar.jar
+Working directory: /Users/callumross/Documents/GitHub/WondersOfTheWorld/Wonders-Of-The-World-A-ZAWA-Evolved-Addon/build/_atJar_5
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================

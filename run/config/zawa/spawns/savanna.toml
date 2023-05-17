@@ -1,0 +1,147 @@
+
+#
+# This is 1 of ZAWA's 10 habitat ranges. Each sub-range has its own list of biomes, and all of the sub-range's entities will spawn in those biomes.
+# Disable entities (or a species variant) by setting "enabled" under their category to false.
+# Use ONLY whole numbers greater than 0 for chance, min, and max!
+# "chance" is how common they spawn, a higher number is more common than a lower number. "min" and "max" adjusts their spawning group size.
+# !! If modded biomes are not generated, delete the entire "biomes" line for each sub-category and restart minecraft. !!
+#
+#
+[dry_savanna]
+	biomes = ["minecraft:savanna", "minecraft:savanna_plateau", "minecraft:shattered_savanna", "minecraft:shattered_savanna_plateau", "minecraft:desert", "minecraft:desert_hills", "minecraft:desert_lakes"]
+
+	[dry_savanna.lowland_nyala]
+		chance = 5
+		min = 1
+		max = 4
+		enabled = true
+
+	[dry_savanna.serval]
+		chance = 15
+		min = 1
+		max = 1
+		enabled = true
+
+	[dry_savanna.saiga_antelope]
+		chance = 3
+		min = 1
+		max = 3
+		enabled = true
+
+	[dry_savanna.northern_giraffe]
+		chance = 10
+		min = 3
+		max = 5
+		enabled = true
+
+	[dry_savanna.butterfly]
+		chance = 10
+		min = 1
+		max = 4
+		enabled = true
+
+	[dry_savanna.oryx]
+		chance = 10
+		min = 1
+		max = 4
+		enabled = true
+
+	[dry_savanna.yellow_billed_hornbill]
+		chance = 10
+		min = 2
+		max = 3
+		enabled = true
+
+	[dry_savanna.emu]
+		chance = 10
+		min = 1
+		max = 3
+		enabled = true
+
+	[dry_savanna.grevys_zebra]
+		chance = 10
+		min = 2
+		max = 6
+		enabled = true
+
+	[dry_savanna.african_lion]
+		chance = 8
+		min = 3
+		max = 6
+		enabled = true
+
+	[dry_savanna.vulture]
+		chance = 5
+		min = 2
+		max = 5
+		enabled = true
+
+[wet_savanna]
+	biomes = ["minecraft:savanna", "minecraft:savanna_plateau"]
+
+	[wet_savanna.masai_giraffe]
+		chance = 10
+		min = 3
+		max = 5
+		enabled = true
+
+	[wet_savanna.african_lake_cichlid]
+		chance = 10
+		min = 5
+		max = 6
+		enabled = true
+
+	[wet_savanna.southern_giraffe]
+		chance = 10
+		min = 3
+		max = 5
+		enabled = true
+
+	[wet_savanna.serval]
+		chance = 15
+		min = 1
+		max = 1
+		enabled = true
+
+	[wet_savanna.african_wild_dog]
+		chance = 8
+		min = 4
+		max = 6
+		enabled = true
+
+	[wet_savanna.trumpeter_hornbill]
+		chance = 10
+		min = 2
+		max = 3
+		enabled = true
+
+	[wet_savanna.reticulated_giraffe]
+		chance = 10
+		min = 3
+		max = 5
+		enabled = true
+
+	[wet_savanna.jacksons_hornbill]
+		chance = 10
+		min = 2
+		max = 3
+		enabled = true
+
+	[wet_savanna.emu]
+		chance = 10
+		min = 1
+		max = 3
+		enabled = true
+
+	[wet_savanna.red_billed_hornbill]
+		chance = 10
+		min = 2
+		max = 3
+		enabled = true
+
+	[wet_savanna.king_baboon_tarantula]
+		chance = 4
+		min = 1
+		max = 1
+		enabled = true
+

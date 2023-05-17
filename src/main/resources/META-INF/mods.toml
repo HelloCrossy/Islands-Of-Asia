@@ -1,0 +1,38 @@
+
+modLoader="javafml"
+loaderVersion="[36.2.0,)"
+license="GNU GPLv3"
+issueTrackerURL="https://github.com/HelloCrossy/WondersOfTheWorld/issues"
+
+[[mods]]
+modId="wondersoftheworld"
+version="${file.jarVersion}"
+displayName="Wonders Of The World ZAWA Addon"
+#updateJSONURL=""
+displayURL="https://www.curseforge.com/minecraft/mc-mods/wonders-of-the-world"
+logoFile="logo.png"
+credits="Devs: HelloCrossy67, Kiew, chilotic, 808s, LleoZCL, Arty"
+authors="HelloCrossy67"
+description='''
+Addon for ZAWA Evolved, with the aim to bring animals from all across the world to YOUR screen!'''
+
+[[dependencies.wondersoftheworld]]
+modId="forge"
+mandatory=true
+versionRange="[36.2.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.wondersoftheworld]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5,1.17)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.wondersoftheworld]]
+modId="zawa"
+mandatory=true
+versionRange="[1.16.5-1.0.1-BeefBeta-Carnivora2,)"
+ordering="AFTER"
+side="BOTH"

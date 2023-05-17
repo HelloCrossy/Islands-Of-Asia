@@ -1,0 +1,69 @@
+
+#
+# This is 1 of ZAWA's 10 habitat ranges. Each sub-range has its own list of biomes, and all of the sub-range's entities will spawn in those biomes.
+# Disable entities (or a species variant) by setting "enabled" under their category to false.
+# Use ONLY whole numbers greater than 0 for chance, min, and max!
+# "chance" is how common they spawn, a higher number is more common than a lower number. "min" and "max" adjusts their spawning group size.
+# !! If modded biomes are not generated, delete the entire "biomes" line for each sub-category and restart minecraft. !!
+#
+#
+[hot_desert]
+	biomes = ["minecraft:desert", "minecraft:desert_hills", "minecraft:badlands", "minecraft:wooded_badlands_plateau", "minecraft:badlands_plateau", "minecraft:desert_lakes"]
+
+	[hot_desert.common_yellow_scorpion]
+		chance = 4
+		min = 1
+		max = 1
+		enabled = true
+
+	[hot_desert.giant_hairy_scorpion]
+		chance = 4
+		min = 1
+		max = 1
+		enabled = true
+
+	[hot_desert.oryx]
+		chance = 10
+		min = 1
+		max = 4
+		enabled = true
+
+	[hot_desert.fennec_fox]
+		chance = 5
+		min = 1
+		max = 4
+		enabled = true
+
+	[hot_desert.chilean_rosehair_tarantula]
+		chance = 4
+		min = 1
+		max = 1
+		enabled = true
+
+	[hot_desert.red_kangaroo]
+		chance = 15
+		min = 2
+		max = 5
+		enabled = true
+
+	[hot_desert.western_desert_tarantula]
+		chance = 4
+		min = 1
+		max = 1
+		enabled = true
+
+	[hot_desert.greenbottle_blue_tarantula]
+		chance = 4
+		min = 1
+		max = 1
+		enabled = true
+
+	[hot_desert.vulture]
+		chance = 5
+		min = 2
+		max = 5
+		enabled = true
+
+[coastal_desert]
+	biomes = ["minecraft:mushroom_field_shore", "minecraft:beach", "minecraft:stone_shore", "minecraft:savanna"]
+

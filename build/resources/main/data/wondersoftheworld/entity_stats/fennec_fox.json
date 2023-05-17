@@ -1,0 +1,26 @@
+{
+  "temperament": "timid",
+  "kibble": "zawa:carnivore_kibble",
+  "size": "small",
+  "fertility": "medium",
+  "breeding_item": "minecraft:cod",
+  "litter_size": {
+    "min": 1,
+    "max": 2
+  },
+  "diet": "zawa:small_carnivore",
+  "speed": "fast",
+  "enrichment": {
+    "zawa:blocks": [
+      "zawa:puzzle_feeder",
+      "zawa:hay_browse",
+      "zawa:sprinkler",
+      "zawa:rope",
+      "zawa:beef_ice_treat"
+    ],
+    "zawa:entities": [
+      "zawa:scented_ball"
+    ]
+  },
+  "variant_count": 3
+}
